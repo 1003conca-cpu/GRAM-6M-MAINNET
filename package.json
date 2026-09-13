@@ -1,0 +1,20 @@
+{
+    "name":  "gram-6m-mainnet",
+    "version":  "1.0.0",
+    "description":  "Reproducible source verification for TON Mainnet GRAM 6M Jetton",
+    "main":  "index.js",
+    "scripts":  {
+                    "verify":  "node scripts/verify-build.mjs",
+                    "test":  "node --test tests/*.test.mjs"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "MIT",
+    "type":  "module",
+    "dependencies":  {
+                         "@ton/core":  "0.63.1",
+                         "@ton/tolk-js":  "1.4.0"
+                     }
+}

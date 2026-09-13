@@ -1,0 +1,51 @@
+{
+  "compilerSettings": {
+    "tolkVersion": "1.4.0"
+  },
+  "compiler": "tolk",
+  "hash": "a/j0jKl9P9nI5VM0Tv568DDDIkWeLuIZegUhYvGWG/s=",
+  "verificationDate": 1778493600000,
+  "sources": [
+    {
+      "url": "ipfs://bafkreidzf4oz7dsf4suefshxyyzwee3ehj223glgn77kze2eoeoikw2why",
+      "filename": "contracts/JettonMinter.tolk",
+      "isEntrypoint": true
+    },
+    {
+      "url": "ipfs://bafkreic2dq72p3nmzphufhusmsejylo4t2injztkmapcew4ayiv4i74bwy",
+      "filename": "contracts/JettonWallet.code.tolk",
+      "isEntrypoint": false
+    },
+    {
+      "url": "ipfs://bafkreiboxpk7h6kwga6crr3nqghvp2ko7jn3diitebvh55vsk54ihohm7u",
+      "filename": "contracts/errors.tolk",
+      "isEntrypoint": false
+    },
+    {
+      "url": "ipfs://bafkreiejc7uiquuekmscg46aigoigbpxifjhzkvpmq5mu2rae7omdavqce",
+      "filename": "contracts/fees-management.tolk",
+      "isEntrypoint": false
+    },
+    {
+      "url": "ipfs://bafkreifgsp3r42ibpjjezfr6fsz2h23mv3wdor57piqlxtoropbu4wp6du",
+      "filename": "contracts/jetton-utils.tolk",
+      "isEntrypoint": false
+    },
+    {
+      "url": "ipfs://bafkreie3f5s5iecynar2zzpkpmgwrehcaupzfytr2denqr7fkn3ed63u74",
+      "filename": "contracts/messages.tolk",
+      "isEntrypoint": false
+    },
+    {
+      "url": "ipfs://bafkreifv52adu7f62ibcxqephhggoavj3nppj3ty7w77mau254hi2erksi",
+      "filename": "contracts/sharding.tolk",
+      "isEntrypoint": false
+    },
+    {
+      "url": "ipfs://bafkreidoi6vrgcdd253lnvyghdafqelnbswajyq43eehmikoqypnwv7uqe",
+      "filename": "contracts/storage.tolk",
+      "isEntrypoint": false
+    }
+  ],
+  "knownContractAddress": "UQBCGWCPiGG0BPZKV7g_J58zdGhQtJaBFKXQIIfrqoHaLXJr"
+}

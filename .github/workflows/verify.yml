@@ -1,0 +1,24 @@
+name: Verify GRAM 6M source
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Clean install
+        run: npm ci
+      - name: Verify compiler and deterministic hashes
+        run: npm run verify
+      - name: Run tests
+        run: npm test
